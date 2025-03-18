@@ -7,7 +7,7 @@ interface Mesin {
     }
     // Interface kedua: Transportasi
     interface Transportasi {
-    public function jalankan();
+    // public function jalankan();
     public function berhenti();
     }
 // Kelas Mobil mengimplementasikan dua interface

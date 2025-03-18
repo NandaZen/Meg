@@ -2,7 +2,8 @@
 
 class Kendaraan {
 
-    protected $merk; protected $harga;
+    protected $merk; 
+    protected $harga;
     protected $warna;
 
     public function SetMerk($merk){
@@ -62,8 +63,8 @@ class Mobil extends Kendaraan {
 
 // Membuat objek dari kelas Kendaraan
 $kendaraan = new Kendaraan();
-$kendaraan->setMerk("Becak");
-$kendaraan->setHarga(3000000);
+$kendaraan->setMerk("Motor");
+$kendaraan->setHarga(20000000);
 $kendaraan->setWarna("Merah");
 echo "================================== \n";
 echo "Ini adalah Nilai Dari Kelas Kendaraan \n";
@@ -72,7 +73,7 @@ echo "Harga = " . $kendaraan->getHarga() . " \n";
 echo "Warna = " . $kendaraan->getWarna() . " \n";
 // Membuat objek dari kelas Kereta
 $kereta = new Kereta();
-$kereta->setMerk("Kereta Listrik Made In Indonesia");
+$kereta->setMerk("KAI");
 $kereta->setJmlGerbong(15);
 $kereta->setWarna("Merah Putih");
 echo "================================== \n";
